@@ -52,6 +52,7 @@ class PhotoViewController: UIViewController, PhotoViewProtocol {
     func displayPhotoInfo(photoInfo: PhotoInfo){
         DispatchQueue.main.async {
             self.titleLabel.text = photoInfo.title
+            print(photoInfo.title)
             self.dateLabel.text = photoInfo.date
             self.postTextView.text = photoInfo.description
             self.copyrigthLabel.text = photoInfo.copyright

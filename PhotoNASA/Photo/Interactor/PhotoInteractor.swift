@@ -38,4 +38,5 @@ class PhotoInteractor: PhotoInteractorInputProtocol{
         }
         task.resume()
     }
+    
 }
